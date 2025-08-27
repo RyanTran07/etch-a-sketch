@@ -1,0 +1,37 @@
+.header {
+    background-color: #FAC898;
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 24px;
+    padding: 10px;
+}
+
+
+.container {
+    margin-top: 12em;
+    margin-bottom: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cell {
+    border: 1px solid #ddd;
+    padding: .6em
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.set-grid {
+    border-radius: 50px;
+    background-color: lightblue;
+    font-size: 30px;
+    padding: 10px;
+}
