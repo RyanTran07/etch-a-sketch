@@ -1,37 +1,50 @@
+
 .header {
-    background-color: #FAC898;
-    color: black;
-    display: flex;
-    justify-content: center;
-    font-family: "Helvetica Neue", sans-serif;
-    font-size: 24px;
-    padding: 10px;
-}
-
-
-.container {
-    margin-top: 12em;
-    margin-bottom: auto;
+    padding: 0;
+    margin: 0;
+    background-color: #FFC067;
     display: flex;
     justify-content: center;
     align-items: center;
-}
+    font-family: "Roboto", sans-serif;
+    height: 25%;
+    width: 100%;
 
-.cell {
-    border: 1px solid #ddd;
-    padding: .6em
 }
-
-.controls {
+.middle {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
     align-items: center;
-    margin-top: 25px;
+    justify-content: center;
+    margin-top: 20em;
+
 }
 
-.set-grid {
+.left-column {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-right: 50px;
+}
+
+.grid-container {
+    height: 600px;
+    width: 600px;
+    border: 1px solid black;
+}
+
+.row {
+    display: flex;
+}
+
+.grid-cell {
+    border: 1px solid gray;
+    box-sizing: border-box;
+}
+
+.left-column > button {
     border-radius: 50px;
-    background-color: lightblue;
-    font-size: 30px;
+    background-color: #24a0ed;
+    font-family: "Helvatica", sans-serif;
     padding: 10px;
 }
